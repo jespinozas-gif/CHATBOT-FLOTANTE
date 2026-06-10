@@ -28,7 +28,7 @@ function sendMessage() {
   input.value = "";
 
   setTimeout(() => {
-    addMessage("🤖 I received: " + text, "bot");
+    addMessage("Hola!! 🤖 Botty ha recibido este mensaje: " + text, "bot");
     body.scrollTop = body.scrollHeight;
   }, 600);
 }
