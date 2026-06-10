@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat Widget Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<h2 style="text-align:center; margin-top:40px;">
+  Demo Chatbot Widget
+</h2>
+
+<p style="text-align:center;">
+  Click the button at bottom-right
+</p>
+
+<button id="chat-toggle">💬</button>
+
+<div id="chat-panel">
+  <div id="chat-header">
+    AI Assistant
+    <span id="close-btn">✖</span>
+  </div>
+
+  <div id="chat-body"></div>
+
+  <div id="chat-footer">
+    <input id="chat-input" type="text" placeholder="Type a message..."/>
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script src="widget.js"></script>
+</body>
+</html>
